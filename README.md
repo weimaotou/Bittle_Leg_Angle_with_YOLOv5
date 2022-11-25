@@ -6,8 +6,7 @@ Joint angles were identified with YOLOv5
 |----------|----------|
 |系统环境|VMware Workstation Pro virtual machine Ubuntu 18.04|
 |CPU|intel core i7 7700HQ|
-|Python版本|python3.7.3(anaconda installed python3.7.3 virtual 
-environment)|
+|Python版本|python3.7.3(anaconda installed python3.7.3 virtual environment)|
 |Yolov5模型版本|YOLO v5s|
 |摄像头像元尺寸|未知|
 |摄像头传感器尺寸|未知|
