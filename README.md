@@ -19,16 +19,17 @@ Joint angles were identified with YOLOv5
 
 ## 第一步 数据集的建立
 在不同的环境下拍摄相当数量的图片，然后用labelImg对图像进行标注。
-标注好的数据集划分为训练集、测试集和验证集（这里没有用测试集），示例见datasets文件夹。
+标注好的数据集划分为训练集、测试集和验证集（这里没有用测试集），示例见[datasets](./datasets/)文件夹。
 
 ## 第二步 开始训练
-修改配置文件，见leg_detection.yaml
+修改配置文件，见[leg_detection.yaml](./leg_detection.yaml)
 ``` python
 python train.py --img 640 --batch 1 --epochs 20 --data 
 leg_detection.yaml --weights yolov5s.pt
 ```
 ## 第三步 Houghcircles参数选择
 见[bimgprocess.ipynb](./bimgprocess.ipynb)
+
 ## 第四步 测试效果
 ``` python
 python detectnode.py --weights best.pt --source 1.jpg
