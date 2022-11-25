@@ -32,3 +32,6 @@ python train.py --img 640 --batch 1 --epochs 20 --data coco128.yaml --weights yo
 ``` python
 python detectnode.py --weights best.pt --source 1.jpg
 ```
+
+结果如下：
+![实验结果图](./%E7%BB%93%E6%9E%9C%E5%9B%BE.jpg)
