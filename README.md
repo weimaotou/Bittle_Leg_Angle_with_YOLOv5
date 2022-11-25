@@ -28,7 +28,7 @@ python train.py --img 640 --batch 1 --epochs 20 --data
 leg_detection.yaml --weights yolov5s.pt
 ```
 ## 第三步 Houghcircles参数选择
-
+见[bimgprocess.ipynb](./bimgprocess.ipynb)
 ## 第四步 测试效果
 ``` python
 python detectnode.py --weights best.pt --source 1.jpg
