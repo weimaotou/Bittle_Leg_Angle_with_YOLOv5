@@ -12,7 +12,23 @@ Joint angles were identified with YOLOv5
 |摄像头传感器尺寸|未知|
 |摄像头视角角度|未知|
 |摄像头输出分辨率|640*480|
-|其他|Bittle支架，摄像头支架|
+|其他|Bittle，Bittle支架，摄像头支架|
 
 ## 实验示意图
 ![实验示意图](./%E7%A4%BA%E6%84%8F%E5%9B%BE.png)
+
+## 第一步 数据集的建立
+在不同的环境下拍摄相当数量的图片，然后用labelImg对图像进行标注。
+标注好的数据集划分为训练集、测试集和验证集（这里没有用测试集），示例见datasets文件夹。
+
+## 第二步 开始训练
+修改配置文件，见coco128.yaml
+``` python
+python train.py --img 640 --batch 1 --epochs 20 --data coco128.yaml --weights yolov5s.pt
+```
+## 第三步 Houghcircles参数选择
+
+## 第四步 测试效果
+``` python
+python detectnode.py --weights best.pt --source 1.jpg
+```
