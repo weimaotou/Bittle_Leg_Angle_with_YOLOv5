@@ -14,6 +14,8 @@ Joint angles were identified with YOLOv5
 |摄像头输出分辨率|640*480|
 |其他|Bittle，Bittle支架，摄像头支架|
 
+环境搭建见[YOLOv5](https://github.com/ultralytics/yolov5)
+
 ## 实验示意图
 ![实验示意图](./%E7%A4%BA%E6%84%8F%E5%9B%BE.png)
 
