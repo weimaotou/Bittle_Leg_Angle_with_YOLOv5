@@ -21,6 +21,10 @@ cd yolov5
 pip install -r requirements.txt  # install
 ```
 
+模型下载：见YOLOv5
+
+修改的文件：detectnode.py和leg_detection.yaml
+
 ## 实验示意图
 ![实验示意图](./%E7%A4%BA%E6%84%8F%E5%9B%BE.png)
 
